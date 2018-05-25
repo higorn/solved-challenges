@@ -1,4 +1,4 @@
-package higorn.practice;
+package higorn.practice.arrays;
 
 import java.util.Arrays;
 import java.util.List;

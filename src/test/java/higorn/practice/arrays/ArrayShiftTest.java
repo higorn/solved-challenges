@@ -1,4 +1,4 @@
-package higorn.practice;
+package higorn.practice.arrays;
 
 import org.junit.Assert;
 import org.junit.Test;
