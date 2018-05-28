@@ -19,6 +19,7 @@ public class StringModification {
     if (groups.isEmpty()) {
       return k;
     }
+    str.rep
     return groups.stream()
         .filter(g -> g.length() > k)
         .map(g -> g.length())

@@ -32,4 +32,9 @@ public class SliceSortingTest {
     int[] A = {2};
     Assert.assertEquals(1, SliceSorting.sort(A));
   }
+  @Test
+  public void case5() {
+    int[] A = {1,2,6,4,3,7};
+    Assert.assertEquals(3, SliceSorting.sort(A));
+  }
 }

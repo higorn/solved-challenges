@@ -41,4 +41,9 @@ public class StringModificationTest {
     String str = "L";
     Assert.assertEquals(1, StringModification.modify(str, 1));
   }
+  @Test
+  public void case6() {
+    String str = "MLM";
+    Assert.assertEquals(2, StringModification.modify(str, 2));
+  }
 }
