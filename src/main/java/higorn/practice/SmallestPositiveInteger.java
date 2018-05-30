@@ -35,15 +35,14 @@ public class SmallestPositiveInteger {
         if (mapA.isEmpty()) {
             return 1;
         }
-        int min = 0;
         Integer i;
         for (i = 1; i <= mapA.size(); i++) {
-            if (mapA.get(i) == null && (min == 0 || i < min)) {
-                min = i;
+            if (mapA.get(i) == null) {
+                return i;
             }
         }
 
-        return min == 0 ? i : min;
+        return i;
     }
 
     private Map<Integer, Integer> arrayToMap(int[] A) {
